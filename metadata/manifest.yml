@@ -1,9 +1,9 @@
 Name: nginx
 Cartridge-Short-Name: NGINX
 Display-Name: Nginx
-Version: "1.4.4"
-Versions: ["1.4.4"]
-Website: https://github.com/gsterjov/openshift-nginx-cart
+Version: "1.7.7"
+Versions: ["1.7.7"]
+Website: https://github.com/tvvocold/openshift-nginx-cart
 Cartridge-Version: 0.0.2
 Cartridge-Vendor: gsterjov
 Categories:
@@ -11,9 +11,9 @@ Categories:
   - nginx
   - web_framework
 Provides:
-  - nginx-1.4
+  - nginx-1.7
   - nginx
-  - nginx(version) = 1.4.4
+  - nginx(version) = 1.7.7
 Scaling:
   Min: 1
   Max: -1
@@ -37,7 +37,7 @@ Subscribes:
     Required: false
 Group-Overrides:
   - components:
-    - nginx-1.4
+    - nginx-1.7
     - web_proxy
 Endpoints:
   - Private-IP-Name:   IP
